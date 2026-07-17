@@ -25,10 +25,3 @@
     <img src="https://skillicons.dev/icons?i=clion,pycharm,visualstudio,vscode,vscodium" />
   </a>
 </p>
-
-### 🔧 Hardware & Misc
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,unreal,bots" />
-  </a>
-</p>
