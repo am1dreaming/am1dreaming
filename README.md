@@ -8,7 +8,7 @@
 ### 🗄️ Tools & Databases
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,mysql,git,bash,cmake" />
+    <img src="https://skillicons.dev/icons?i=nodejs,mysql,git,bash,cmake,docker" />
   </a>
 </p>
 
