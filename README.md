@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:EA6113,33:F88F22,66:FBB931,100:FFE3B3&height=200&section=header&text=Hi,%20I'm%20am1dreaming&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE3B3,33:FBB931,66:F88F22,100:EA6113&height=200&section=header&text=Hi,%20I'm%20am1dreaming&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%"/>
 </p>
 
 ### 🧑‍💻 Languages
