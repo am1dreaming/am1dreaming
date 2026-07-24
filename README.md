@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E9AAF,100:CBC0D3&height=200&section=header&text=Hi,%20I'm%20am1dreaming&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%"/>
+</p>
+
 ### 🧑‍💻 Languages
 <p align="center">
   <a href="https://skillicons.dev">
