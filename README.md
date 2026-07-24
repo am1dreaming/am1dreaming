@@ -29,3 +29,8 @@
     <img src="https://skillicons.dev/icons?i=clion,pycharm,visualstudio,vscode,vscodium" />
   </a>
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/am1dreaming/am1dreaming/output/github-contribution-grid-snake.svg#gh-light-mode-only" />
+  <img src="https://raw.githubusercontent.com/am1dreaming/am1dreaming/output/github-contribution-grid-snake-dark.svg#gh-light-mode-only" />
+</p>
