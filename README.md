@@ -1,7 +1,7 @@
 ### 🧑‍💻 Languages
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,py,js,ts,go,swift,css" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,py,js,ts,go,swift,css,html" />
   </a>
 </p>
 
