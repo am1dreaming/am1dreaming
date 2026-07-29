@@ -9,7 +9,6 @@
   </a>
 </p>
 
-
 ### 🗄️ Tools & Databases
 <p align="center">
   <a href="https://skillicons.dev">
