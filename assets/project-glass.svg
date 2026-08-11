@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity=".035"/></linearGradient>
+ <radialGradient id="a"><stop stop-color="#60a5fa" stop-opacity=".55"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></radialGradient>
+ <filter id="b"><feGaussianBlur stdDeviation="32"/></filter>
+ <filter id="n"><feTurbulence baseFrequency=".75" numOctaves="2"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .045 0"/></filter>
+</defs>
+<rect width="520" height="300" rx="32" fill="#090b10"/>
+<circle cx="100" cy="70" r="150" fill="url(#a)" filter="url(#b)"/>
+<circle cx="430" cy="250" r="130" fill="#c084fc" opacity=".18" filter="url(#b)"/>
+<rect x="22" y="22" width="476" height="256" rx="28" fill="url(#g)" stroke="#fff" stroke-opacity=".28"/>
+<rect x="23" y="23" width="474" height="254" rx="27" fill="none" stroke="#fff" stroke-opacity=".08"/>
+<circle cx="66" cy="66" r="12" fill="#fff" opacity=".9"/>
+<path d="M64 60v12l9-6z" fill="#090b10"/>
+<text x="94" y="73" fill="#fff" font-family="Arial,sans-serif" font-size="18" font-weight="700">LIVE LYRICS</text>
+<text x="48" y="125" fill="#fff" font-family="Arial,sans-serif" font-size="27" font-weight="700">Wallpaper Engine</text>
+<text x="48" y="157" fill="#fff" opacity=".62" font-family="Arial,sans-serif" font-size="14">real-time synchronized lyrics</text>
+<rect x="48" y="192" width="424" height="7" rx="4" fill="#fff" opacity=".12"/>
+<rect x="48" y="192" width="265" height="7" rx="4" fill="#fff" opacity=".78"/>
+<circle cx="313" cy="195.5" r="7" fill="#fff"/>
+<text x="48" y="235" fill="#fff" opacity=".48" font-family="Arial,sans-serif" font-size="12">Spotify  •  JavaScript  •  Karaoke</text>
+<rect width="520" height="300" rx="32" filter="url(#n)" opacity=".3"/>
+</svg>

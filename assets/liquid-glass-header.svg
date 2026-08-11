@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<title id="title">am1dreaming — Liquid Glass</title>
+<desc id="desc">A dark glassmorphism header with moving light, refraction and soft highlights.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#05060a"/><stop offset=".48" stop-color="#10121a"/><stop offset="1" stop-color="#05060a"/>
+  </linearGradient>
+  <radialGradient id="orb1"><stop stop-color="#7dd3fc" stop-opacity=".72"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orb2"><stop stop-color="#c084fc" stop-opacity=".58"/><stop offset="1" stop-color="#c084fc" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orb3"><stop stop-color="#f0abfc" stop-opacity=".38"/><stop offset="1" stop-color="#f0abfc" stop-opacity="0"/></radialGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff" stop-opacity=".18"/><stop offset=".45" stop-color="#fff" stop-opacity=".055"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff" stop-opacity=".72"/><stop offset=".25" stop-color="#fff" stop-opacity=".16"/><stop offset=".72" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity=".48"/>
+  </linearGradient>
+  <filter id="blur40"><feGaussianBlur stdDeviation="40"/></filter>
+  <filter id="blur18"><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="shadow"><feGaussianBlur in="SourceAlpha" stdDeviation="10"/><feOffset dy="8"/><feComponentTransfer><feFuncA type="linear" slope=".45"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer></filter>
+  <clipPath id="glassClip"><rect x="70" y="55" width="1060" height="220" rx="42"/></clipPath>
+</defs>
+
+<rect width="1200" height="330" fill="url(#bg)"/>
+<g clip-path="url(#glassClip)">
+  <circle cx="210" cy="40" r="230" fill="url(#orb1)" filter="url(#blur40)">
+    <animate attributeName="cx" values="210;330;210" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="930" cy="300" r="260" fill="url(#orb2)" filter="url(#blur40)">
+    <animate attributeName="cy" values="300;180;300" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="690" cy="100" r="170" fill="url(#orb3)" filter="url(#blur40)">
+    <animate attributeName="cx" values="690;820;690" dur="9s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<rect x="70" y="55" width="1060" height="220" rx="42" fill="url(#glass)" stroke="url(#rim)" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="72" y="57" width="1056" height="216" rx="40" fill="none" stroke="#fff" stroke-opacity=".08"/>
+
+<g opacity=".24" filter="url(#blur18)">
+  <path d="M120 238 C300 130 380 230 530 100 S820 60 1080 190" fill="none" stroke="#fff" stroke-width="28"/>
+</g>
+
+<g fill="#fff">
+  <circle cx="120" cy="100" r="5" opacity=".55"/>
+  <circle cx="1080" cy="230" r="4" opacity=".35"/>
+</g>
+
+<text x="600" y="148" text-anchor="middle" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">am1dreaming</text>
+<text x="600" y="192" text-anchor="middle" fill="#fff" fill-opacity=".72" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" letter-spacing="2">STUDENT · DEVELOPER · BUILDER</text>
+<text x="600" y="232" text-anchor="middle" fill="#fff" fill-opacity=".45" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="14">software · music · experiments</text>
+
+<rect width="1200" height="330" filter="url(#noise)" opacity=".35"/>
+</svg>

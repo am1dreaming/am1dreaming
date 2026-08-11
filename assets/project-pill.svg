@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 52">
+<defs><linearGradient id="g"><stop stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity=".05"/></linearGradient></defs>
+<rect x="1" y="1" width="248" height="50" rx="25" fill="url(#g)" stroke="#fff" stroke-opacity=".35"/>
+<text x="125" y="32" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700">featured project ↗</text>
+</svg>
