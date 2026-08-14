@@ -1,35 +1,48 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE3B3,33:FBB931,66:F88F22,100:EA6113&height=200&section=header&text=Hi,%20I'm%20am1dreaming&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%"/>
+  <img src="assets/Untitled (6).png" width="1000"/>
 </p>
-
-### 🧑‍💻 Languages
+<br>
+<p>
+  <img src="assets/Frame 6.png" width="1000"/>
+</p>
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=c,cpp,py,js,ts,go,swift,css,html" />
   </a>
 </p>
-
-
-### 🗄️ Tools & Databases
+<br>
+<br>
+<p>
+  <img src="assets/Frame 5.png" width="1000"/>
+</p>
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=nodejs,mysql,git,bash,cmake,docker" />
   </a>
 </p>
-
-### ☁️ Cloud & DevOps
+<br>
+<br>
+<p>
+  <img src="assets/Frame 4.png" width="1000"/>
+</p>
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=aws,azure,cloudflare,githubactions,powershell" />
   </a>
 </p>
+<br>
+<br>
+<p>
+  <img src="assets/Frame 3 (1).png" width="1000"/>
+</p>
 
-### 💻 IDEs & Editors
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=clion,pycharm,visualstudio,vscode,vscodium" />
   </a>
 </p>
+
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/am1dreaming/am1dreaming/output/github-contribution-grid-snake.svg#gh-light-mode-only" />
